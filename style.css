@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+main {
+
+    margin-top: 50px;
+
+}
+
+.textbox input {
+    width: 100%;
+    background: #fafafa;
+    border: 1px solid #efefef;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #262626;
+    padding: 10px;
+}
+
+img.image-instagram {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px solid #e6e6e6;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input.input-text {
+    width: 270px;
+    height: 35px;
+    margin: 5px 0;
+}
+
+.textbox a {
+    border: 1px solid;
+    text-decoration: none;
+    padding: 5px 100px;
+    width: 270px;
+    text-align: center;
+    background-color: #3897f0;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.xyz {
+    margin: 50px;
+}
+
+.or {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.line {
+    width: 90px;
+    height: 1px;
+    background-color: #bfbfbf;
+
+}
+
+.login-facebook img {
+    width: 15px;
+    margin: 5px;
+}
+
+.login-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.login-facebook a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.or p {
+    margin: 20px 10px;
+    color: rgb(163, 163, 163);
+}
+
+.reset-password {
+    text-align: center;
+}
+
+.reset-password a {
+    text-decoration: none;
+    color: rgb(6, 6, 163);
+}
+
+.section-two p a {
+    text-decoration: none;
+    color: #3897f0;
+}
+
+.section-two p {
+    text-align: center;
+    margin: 20px;
+}
+
+.download-app {
+    text-align: center;
+    margin: 30px;
+}
+
+.section-tree {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.images-app {
+    text-align: center;
+}
+
+.images-app img {
+    width: 42%;
+    margin: 0px 5px;
+}
+
+footer {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    margin: 5px;
+    color: gray;
+    font-size: 12px;
+    line-height: 35px;
+}
+
+.copyright {
+    text-align: center;
+    color: #999;
+    margin: 20px 0 30px;
+    font-size: 15px;
+}
